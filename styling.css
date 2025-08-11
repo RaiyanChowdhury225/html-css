@@ -1,0 +1,55 @@
+.header {
+    
+    background-color: darkslategrey;
+    color: white;
+    font:32px;
+    padding: 40px 80px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Change this - was probably 60px or higher */
+}
+
+.hero-text h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hero-text p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: brown;
+}
+
+.hero-text button{
+    background-color: cyan;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+   
+
+    
+}
+
+.hero-img{
+    background-color: gray;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
