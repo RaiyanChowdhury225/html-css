@@ -78,28 +78,39 @@
 
 .bigtext {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 100px;
     background-color: #e5e7eb;
-
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.bigtext .big{
-      font-style:italic;
-      font-size: 36px;
-      color:#1F2937;
-      font-weight: 100;
-
+.bigtext .quote {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    color: #555;
 }
 
-.bigtext .quote{
-    display: flex;
-    justify-content: right;
+
+.bigtext .big {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    margin: 0;
 }
+
+
+
+
 
 .action {
-    background-color: #4285f4; /* Blue background */
+    background-color: #4285f4; 
     padding: 30px 40px;
     border-radius: 8px;
     display: flex;
